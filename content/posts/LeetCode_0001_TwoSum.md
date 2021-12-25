@@ -3,9 +3,13 @@ title: "LeetCode 0001. TwoSum"
 date: 2021-12-25T11:24:58+08:00
 draft: false
 
-tags: [LeetCode]
-categories: [LeetCode]
+tags: [ "LeetCode", "算法"]
+categories: 
+  - "LeetCode题解"
 ---
+{{< admonition >}}
+**👻 本人水平有限，如有建议，欢迎留言或邮件联系 👻** 
+{{< /admonition >}}
 
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
 

@@ -3,8 +3,9 @@ title: "LeetCode 0039. Combination Sum"
 date: 2021-12-25T10:46:44+08:00
 draft: false
 
-tags: [LeetCode]
-categories: [LeetCode]
+tags: [ "LeetCode", "算法" ]
+categories: 
+  - "LeetCode题解"
 ---
 
 Given an array of **distinct** integers `candidates` and a target integer `target`, return *a list of all **unique combinations** of* `candidates` *where the chosen numbers sum to* `target`*.* You may return the combinations in **any order**.

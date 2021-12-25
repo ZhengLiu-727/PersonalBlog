@@ -110,7 +110,7 @@ theme = "LoveIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = ""
+      name = "Zheng Liu's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -451,6 +451,7 @@ theme = "LoveIt"
     # false 是必要的设置
     # (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    style = "monokai"
   # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
   [markup.goldmark]
     [markup.goldmark.extensions]
