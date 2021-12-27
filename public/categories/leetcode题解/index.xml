@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LeetCode题解 - 分类 - 我的博客</title>
+        <link>http://liuzheng.site/categories/leetcode%E9%A2%98%E8%A7%A3/</link>
+        <description>LeetCode题解 - 分类 - 我的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Dec 2021 11:24:58 &#43;0800</lastBuildDate><atom:link href="http://liuzheng.site/categories/leetcode%E9%A2%98%E8%A7%A3/" rel="self" type="application/rss+xml" /><item>
+    <title>LeetCode 0001. TwoSum</title>
+    <link>http://liuzheng.site/leetcode_0001_twosum/</link>
+    <pubDate>Sat, 25 Dec 2021 11:24:58 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://liuzheng.site/leetcode_0001_twosum/</guid>
+    <description><![CDATA[注意 👻 本人水平有限，如有建议，欢迎留言或邮件联系 👻 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have *exactly* one solution, and you may not use the same element twice. You can]]></description>
+</item><item>
+    <title>LeetCode 0039. Combination Sum</title>
+    <link>http://liuzheng.site/leetcode-0039.-combination-sum/</link>
+    <pubDate>Sat, 25 Dec 2021 10:46:44 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://liuzheng.site/leetcode-0039.-combination-sum/</guid>
+    <description><![CDATA[Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order. The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different. It is guaranteed that]]></description>
+</item><item>
+    <title>LeetCode 1609. Even Odd Tree</title>
+    <link>http://liuzheng.site/leetcode-1609.-even-odd-tree/</link>
+    <pubDate>Sat, 25 Dec 2021 10:46:44 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://liuzheng.site/leetcode-1609.-even-odd-tree/</guid>
+    <description><![CDATA[A binary tree is named Even-Odd if it meets the following conditions: The root of the binary tree is at level index 0, its children are at level index 1, their children are at level index 2, etc. For every even-indexed level, all nodes at the level have odd integer values in strictly increasing order (from left to right). For every odd-indexed level, all nodes at the level have even]]></description>
+</item></channel>
+</rss>
