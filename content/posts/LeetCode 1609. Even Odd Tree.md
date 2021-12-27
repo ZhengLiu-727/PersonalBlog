@@ -6,7 +6,9 @@ draft: false
 tags: [ "LeetCode", "算法"]
 categories: 
   - "LeetCode题解"
+
 ---
+> ## 题目
 
 A binary tree is named **Even-Odd** if it meets the following conditions:
 
@@ -16,11 +18,12 @@ A binary tree is named **Even-Odd** if it meets the following conditions:
 
 Given the `root` of a binary tree, *return* `true` *if the binary tree is **Even-Odd**, otherwise return* `false`*.*
 
- 
+<br/>
 
 **Example 1:**
 
-![img](https://assets.leetcode.com/uploads/2020/09/15/sample_1_1966.png)
+
+<img src="https://assets.leetcode.com/uploads/2020/09/15/sample_1_1966.png" width="65%" />
 
 ```java
 Input: root = [1,10,4,3,null,7,9,12,8,6,null,null,2]
@@ -32,10 +35,11 @@ Level 2: [3,7,9]
 Level 3: [12,8,6,2]
 Since levels 0 and 2 are all odd and increasing and levels 1 and 3 are all even and decreasing, the tree is Even-Odd.
 ```
+<br/>
 
 **Example 2:**
 
-![img](https://assets.leetcode.com/uploads/2020/09/15/sample_2_1966.png)
+<img src="https://assets.leetcode.com/uploads/2020/09/15/sample_2_1966.png" width="65%"/>
 
 ```java
 Input: root = [5,4,2,3,3,7]
@@ -46,32 +50,38 @@ Level 1: [4,2]
 Level 2: [3,3,7]
 Node values in level 2 must be in strictly increasing order, so the tree is not Even-Odd.
 ```
+<br/>
 
 **Example 3:**
 
-![img](https://assets.leetcode.com/uploads/2020/09/22/sample_1_333_1966.png)
+<img src="https://assets.leetcode.com/uploads/2020/09/22/sample_1_333_1966.png" width="65%"/>
+
 
 ```java
 Input: root = [5,9,1,3,5,7]
 Output: false
 Explanation: Node values in the level 1 should be even integers.
 ```
-
- 
+</br>
 
 **Constraints:**
 
 - The number of nodes in the tree is in the range `[1, 10^5]`.
 - `1 <= Node.val <= 10^6`
 
-> **思路**
+
+</br>
+
+> ## 思路
 
 层序遍历的变种，多了几个判断条件：
 
 - 根据层数的奇偶，判断每个节点值的奇偶
 - 根据层数的奇偶，判断单调性，每次遍历一层开始时，设一个`Integer pre = null`
 
-> **解法**
+</br>
+
+> ## 解法
 
 ```java
 /**
@@ -119,6 +129,12 @@ class Solution {
 }
 ```
 
-**时间复杂度：**$ O(N)$，$N$为树的节点和
+**时间复杂度：**$ O(N) $，$N$为树的节点和
 
-**空间复杂度：**$O(N)$。
+**空间复杂度：**$ O(N) $
+
+</br>
+
+{{< admonition >}}
+**👻 本人水平有限，如有建议，欢迎留言或邮件联系 👻** 
+{{< /admonition >}}

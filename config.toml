@@ -219,7 +219,7 @@ theme = "LoveIt"
       # 是否使用目录
       enable = true
       #  是否保持使用文章前面的静态目录
-      keepStatic = true
+      keepStatic = false
       # 是否使侧边目录自动折叠展开
       auto = true
     #  代码配置
@@ -227,7 +227,7 @@ theme = "LoveIt"
       # 是否显示代码块的复制按钮
       copy = true
       # 默认展开显示的代码行数
-      maxShownLines = 10
+      maxShownLines = 50
     #  KaTeX 数学公式
     [params.page.math]
       enable = true
@@ -271,7 +271,7 @@ theme = "LoveIt"
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
@@ -279,8 +279,8 @@ theme = "LoveIt"
       Flipboard = false
       Weibo = true
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
       Evernote = true
@@ -442,6 +442,7 @@ theme = "LoveIt"
 
 # Hugo 解析文档的配置
 [markup]
+  defaultMarkdownHandler = "goldmark"
   # 语法高亮设置
   [markup.highlight]
     codeFences = true
@@ -462,14 +463,35 @@ theme = "LoveIt"
       table = true
       taskList = true
       typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
     [markup.goldmark.renderer]
-      # 是否在文档中直接使用 HTML 标签
+      hardWraps = false
       unsafe = true
+      xhtml = false
   # 目录设置
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
-
+  
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  
 # 作者配置
 [author]
   name = "Zheng Liu"
