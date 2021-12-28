@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: false
+hiddenFromHomePage: true
 
 tags: [ "LeetCode", "算法" ]
 categories: 
