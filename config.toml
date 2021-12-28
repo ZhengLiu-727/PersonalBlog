@@ -132,7 +132,7 @@ theme = "LoveIt"
     # 网站创立年份
     since = 2021
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    icp = '<a href="https://beian.miit.gov.cn/">津ICP备2021009137号</a>'
     # 许可协议信息 (支持 HTML 格式)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
@@ -192,7 +192,7 @@ theme = "LoveIt"
     Zhihu = "xin-cheng-jiu-shao-nian-39"
     Email = "zhengliu.zhengliu@gmail.com"
     
-    RSS = true # 
+    RSS = false # 
 
   #  文章页面配置
   [params.page]
@@ -325,6 +325,22 @@ theme = "LoveIt"
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
+      # Waline 评论系统设置
+      [params.page.comment.waline]
+        enable = true
+        #js = "https://cdn.jsdelivr.net/npm/@waline/client@latest"
+        js = "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"
+        meta = ['nick','mail','link']                           # 评论者相关属性
+        requiredFields = ['nick','mail']                        # 设置必填项，默认匿名
+        placeholder = "提交评论较慢，请等待几秒~"              	    # 评论框占位提示符
+        serverURL = "https://personal-blog-api-1ab8tqmo7-zhengliu-727.vercel.app/"      # Waline的服务端地址（必填） 
+        #imageHosting =                                         # 图床api，如果允许评论框上传图片
+        avatar = "retro"                                        # Gravatar头像
+        avatarCDN = "https://sdn.geekzu.org/avatar/"            # Gravatar头像CDN地址，不建议使用loli源
+        pageSize = 10                                           # 评论列表分页，每页条数
+        lang = "zh-CN"                                          # 多语言支持
+        visitor = true                                          # 文章访问量统计
+        highlight = true                                        # 代码高亮
       # Facebook 评论系统设置
       [params.page.comment.facebook]
         enable = false
