@@ -45,18 +45,18 @@
 }
 
 /* 归档、标签、分类、特殊页面 */
-.page.archive, .page.single, .page.single.special {
-	padding-left: 1rem;
-	padding-right: 1rem;
-    padding-bottom: 1rem;
-    background: white;	
-	opacity: .95;
-}
-[theme=dark] .page.archive,
-[theme=dark] .page.single,
-[theme=dark] .page.single.special {
-    background: #3a3535;
-}
+// .page.archive, .page.single, .page.single.special {
+// 	padding-left: 1rem;
+// 	padding-right: 1rem;
+//     padding-bottom: 1rem;
+//     background: white;	
+// 	opacity: .95;
+// }
+// [theme=dark] .page.archive,
+// [theme=dark] .page.single,
+// [theme=dark] .page.single.special {
+//     background: #3a3535;
+// }
 
 .archive-item-date2 {
     color: #a9a9b3;
