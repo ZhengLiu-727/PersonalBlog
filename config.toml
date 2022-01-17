@@ -9,7 +9,7 @@ hasCJKLanguage = true
 title = "Zheng‘s Blog"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
-theme = "LoveIt"
+theme = ["LoveIt"]
 
 
 
@@ -17,7 +17,7 @@ theme = "LoveIt"
   [[menu.main]]
     identifier = "posts"
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-    pre = ""
+    pre = "<i class='fas fa-print'></i>"
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
     post = ""
     name = "文章"
@@ -27,7 +27,7 @@ theme = "LoveIt"
     weight = 1
   [[menu.main]]
     identifier = "tags"
-    pre = ""
+    pre = "<i class='fas fa-fw fa-tag'></i>"
     post = ""
     name = "标签"
     url = "/tags/"
@@ -35,7 +35,7 @@ theme = "LoveIt"
     weight = 2
   [[menu.main]]
     identifier = "categories"
-    pre = ""
+    pre = "<i class='fas fa-fw fa-th'></i>"
     post = ""
     name = "分类"
     url = "/categories/"
